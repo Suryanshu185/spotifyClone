@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    /* background-color:rgb(41, 41, 41); */
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+.songItem{
+    height: 50px;
+    width: 10px;
+    display: flex;
+    background-color: rgb(165, 165, 165);
+    width:80%;
+    color: black;
+    margin:10px;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 35px;
+    font-family: 'Anton',sans-serif;
+
+}
+.songItem img{
+    width: 45px;
+    margin: 0 25px;
+    border-radius: 50px;
+
+}
+
+div span{
+    margin: 0 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+div i{
+    margin: 7px;
+    color:white;*/
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li img{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+    font-weight:bolder;
+    font-size: 1.3 rem;
+    padding: 0 14px;
+}
+
+.container{
+    min-height: 70vh; 
+    background-color: rgb(41, 41, 41);
+    color: white;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 12px;
+    font-family: 'Anton' , sans-serif;
+    text-align:left ;
+    padding: 15px;
+    font-size: small;
+    background-image: url(Renegade.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px 500px;
+    background-position: center;
+}
+
+.brand{
+
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    height: 130px;
+}
+#myProgressBar{
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25vw;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.SongInfo{
+    position: absolute;
+    left: 25.2vw;
+    font-family: 'Anton', sans-serif;';
+
+}
+
+.SongInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
